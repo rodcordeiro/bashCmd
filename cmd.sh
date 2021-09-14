@@ -78,6 +78,8 @@ if [[ -n "$1" ]]; then
       exit $?
     fi
   done
+else
+  command_update
 fi
 
 echo $EXE
